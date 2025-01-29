@@ -20,49 +20,34 @@ This project detects **human poses** in **images, videos, and live webcam stream
 
 ## ⚙️ Installation & Setup  
 
-### 🔹 1. Clone the Repository  
-```bash
-git clone https://github.com/your-repo/Human-Pose-Detection.git
+🔹 **1. Clone the Repository**
+git clone [https://github.com/your-repo/Human-Pose-Detection.git](https://github.com/anubagre/HumanPoseEstimation.git)
+
 cd Human-Pose-Detection
-🔹 2. Install Dependencies
-bash
-Copy
-Edit
+
+🔹 **2. Install Dependencies**
+
 pip install -r requirements.txt
-🔹 3. Run the Streamlit App
-bash
-Copy
-Edit
+
+🔹 **3. Run the Streamlit App**
+
 streamlit run app.py
-📷 How It Works
+
+---
+
+## 📷 How It Works
+
 🔹 BlazePose is used for real-time pose detection.
+
 🔹 OpenCV processes frames from images/videos/webcam.
+
 🔹 Streamlit provides an interactive UI for users.
 
-📁 Usage
-🖼️ Pose Detection on Images
-bash
-Copy
-Edit
-python HME_onimage.py --image_path "Images/sample.jpg"
-🎥 Pose Detection on Videos
-bash
-Copy
-Edit
-python HME_onvid.py --video_path "Videos/sample.mp4"
-📷 Pose Detection in Real-Time (Webcam)
-bash
-Copy
-Edit
-python HME_live.py
-🔧 Requirements
-Python 3.7+
-Streamlit
-OpenCV
-MediaPipe
-NumPy
+---
 
-🛠️ Future Enhancements
+## 🛠️ Future Enhancements
 🚀 Add pose classification for exercises (e.g., Yoga, Workouts)
+
 🚀 Deploy as a Web App
+
 🚀 Integrate gesture recognition
